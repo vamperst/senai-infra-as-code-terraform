@@ -2,11 +2,11 @@
    ```
     aws --region us-east-1 ec2 \
     create-key-pair \
-    --key-name "fiap-lab" \
+    --key-name "senai-lab" \
     | \
-    jq -r ".KeyMaterial" > ~/.ssh/fiap-lab.pem   
+    jq -r ".KeyMaterial" > ~/.ssh/senai-lab.pem   
    ```
-2. Execute o comando `chmod 400 ~/.ssh/fiap-lab.pem` para que a chave tenha a permissão correta.
+2. Execute o comando `chmod 400 ~/.ssh/senai-lab.pem` para que a chave tenha a permissão correta.
 3. Execute o comando `cd ~/environment/Hackaton-exercises-terraform/demos/Plan-Apply` para entrar na pasta do exercício.
 4. Entre na pasta EC2 `cd EC2`
 5. Execute o comando `terraform init`
@@ -23,7 +23,7 @@
    ![ec22](images/painelec22.png)
 11. Agora saia dessa pasta com o comando `cd ..`
 12. Entre na pasta EC2-ssh com o comando `cd EC2-ssh`
-13. Nesse exemplo voce utilizará a chave fiap-lab que criou. Para iniciar o processo execute o comando `terraform init`.
+13. Nesse exemplo voce utilizará a chave senai-lab que criou. Para iniciar o processo execute o comando `terraform init`.
 14. Este exemplo irá criar maquinas ec2 e acessar as mesmas para instalar Nginx. Para planejar execute o comando `terraform plan`
 15. Antes de executar o apply, abra uma aba no seu navegador e vá para o painel do EC2 na AWS. Basta Clicar em serviços e digitar EC2.
 16. No menu lateral esquerdo, clique em 'Security Groups' 

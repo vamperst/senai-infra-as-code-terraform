@@ -8,7 +8,7 @@ Utilize o código da demo Count e faça as seguintes mudanças:
 4. Os nomes das maquinas devem ser de acordo com o ambiente do workspace. Ex: nginx-workspace-002
 5. O nome do ELB e do Securitygroup também devem conter o workspace
 6. Crie um ambiente de prod e um dev
-7. Faça um zip dos arquivos desse exercicio e submeta no portal da fiap.
+7. Faça um zip dos arquivos desse exercicio e submeta no Classroom.
 
 
 #### Ajuda

@@ -12,10 +12,10 @@ variable "AMIS" {
 }
 
 variable "KEY_NAME" {
-  default = "fiap-lab"
+  default = "senai-lab"
 }
 variable "PATH_TO_KEY" {
-  default = "/home/ubuntu/.ssh/fiap-lab.pem"
+  default = "/home/ubuntu/.ssh/senai-lab.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"

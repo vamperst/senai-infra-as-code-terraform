@@ -1,7 +1,7 @@
 data "aws_availability_zones" "available" {}
 
 variable "project" {
-  default = "fiap-lab"
+  default = "senai-lab"
 }
 variable "vpc_cidr" {
   default = "9.0.0.0/16"

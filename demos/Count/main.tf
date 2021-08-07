@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 variable "project" {
-  default = "fiap-lab"
+  default = "senai-lab"
 }
 
 data "aws_vpc" "vpc" {

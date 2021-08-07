@@ -11,7 +11,7 @@ variable "AMIS" {
 }
 
 variable "project" {
-  default = "lab-fiap"
+  default = "lab-senai"
 }
 
 variable "nomeGrupo" {

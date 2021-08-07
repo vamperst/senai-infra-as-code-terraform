@@ -6,7 +6,7 @@
 1. garanta que a região que esta utilizando é `us-east-1/ Norte da Virgínia`. Você consegue ver isso no canto superior direiro da tela.
     ![img/regiao.png](img/regiao.png)
  2. Clique em `create environment`.
- 3. Coloque o nome `lab-fiap` e avance.
+ 3. Coloque o nome `lab-senai` e avance.
  ![img/nomelab.png](img/nomelab.png)
  5. Deixe as configurações como na imagem a seguir:
 ![img/config.png](img/config.png)

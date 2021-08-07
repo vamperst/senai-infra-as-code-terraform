@@ -7,7 +7,7 @@
     jq -r ".KeyMaterial" > ~/.ssh/senai-lab.pem   
    ```
 2. Execute o comando `chmod 400 ~/.ssh/senai-lab.pem` para que a chave tenha a permissão correta.
-3. Execute o comando `cd ~/environment/Hackaton-exercises-terraform/demos/Plan-Apply` para entrar na pasta do exercício.
+3. Execute o comando `cd ~/environment/senai-infra-as-code-terraform/demos/Plan-Apply` para entrar na pasta do exercício.
 4. Entre na pasta EC2 `cd EC2`
 5. Execute o comando `terraform init`
    ![init](images/terraforminit.png)
